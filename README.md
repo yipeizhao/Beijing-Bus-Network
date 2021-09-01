@@ -25,7 +25,3 @@ Visited at 01/09/2021.
 
 A Preview of the network:
 ![Preview](./Preview.png)
-=======
-https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html.
-Viewed on 01/09/2021.
-
