@@ -19,7 +19,6 @@ Format of the original xlsx and translation:
 * 站点名称 - Stop name
 
 Original sources:
-<<<<<<< HEAD
 https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html
 Visited at 01/09/2021.
 
