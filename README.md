@@ -12,6 +12,7 @@ Please be aware that this network is simple, with the following properties:
 The network has 9249 nodes and 14058 edges.
 
 Format of the csv file: Contains two columns: source and target.
+
 Format of the original xlsx and translation:
 * 线路名称 - Route name
 * 方向 - Direction
