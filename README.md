@@ -23,5 +23,5 @@ Original sources:
 https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html
 Visited at 01/09/2021.
 
-A Preview of the network:
+A preview of the network:
 ![Preview](./Preview.png)
