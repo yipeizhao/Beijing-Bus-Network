@@ -1,7 +1,7 @@
 # Beijing-Bus-Network
 
 This data is colleted from the Ministry of Transport of the People's Republic of China, and processed into an edge list which anyone can construct a network with it.
-This data is based on the spreadsheet pubilished on Nov 2020. A processed file will also be added(in pyhton), it should work for new pubilished data as well(with the same format).
+This data is based on the spreadsheet pubilished on Nov 2020. A processed file will also be added(in python), it should work for new pubilished data as well(with the same format).
 
 Please be aware that this network is simple, with the following properties:
 * Undirected
