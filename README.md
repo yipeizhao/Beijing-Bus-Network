@@ -14,5 +14,5 @@ The network has 9249 nodes and 14058 edges.
 Format of the csv file: Contains two columns: source and target.
 
 Original sources:
-https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html
+https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html.
 Viewed on 01/09/2021.
