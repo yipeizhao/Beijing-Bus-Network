@@ -38,7 +38,7 @@ source = [item[0] for item in edges]
 target = [item[1] for item in edges]
 data = {"source" : source,"target" : target}
 processed_beijing_bus = pd.DataFrame(data = data)
-processed_beijing_bus.to_csv("beijing.csv")
+processed_beijing_bus.to_csv("beijing_process.csv",index=False)
 
 Gcc = ut.gcc(G)
 edges = list(Gcc.edges())
