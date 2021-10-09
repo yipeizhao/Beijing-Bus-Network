@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import networkx as nx
-import utilities as ut
 df = pd.read_csv("beijing.csv")
 stops = set(df["站点名称"])
 lines = set(df["线路名称"])
@@ -40,8 +39,11 @@ data = {"source" : source,"target" : target}
 processed_beijing_bus = pd.DataFrame(data = data)
 processed_beijing_bus.to_csv("beijing_process.csv",index=False)
 
-Gcc = ut.gcc(G)
-edges = list(Gcc.edges())
+Gcc = sorted(nx.connected_components(G), key=len, reverse=True)
+G0 = G.subgraph(Gcc[0])
+G = nx.Graph(G0)
+G.remove_edges_from(list(nx.selfloop_edges(G)))
+edges = list(G.edges())
 source = [item[0] for item in edges]
 target = [item[1] for item in edges]
 data = {"source" : source,"target" : target}
